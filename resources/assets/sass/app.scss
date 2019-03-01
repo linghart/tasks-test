@@ -1,0 +1,107 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import "modal";
+// Variables
+@import "variables";
+.nav-item{
+  .nav-link{
+    cursor: pointer;
+  }
+}
+.auth-form{
+  margin-top: 30px;
+}
+
+.tag-badge{
+  padding: 3px 8px 5px 8px;
+  line-height: 1em;
+  float: right;
+}
+
+.tag-badge + .tag-badge {
+  margin-right:5px;
+}
+
+.ti-selected-item{
+  background: #007bff!important;
+}
+
+.tag-input{
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
+.ti-input{
+  border: none!important;
+}
+
+.ti-tag, .badge-task{
+  color: #fff;
+  background-color: #888!important;
+}
+
+.vue-tags-input{
+  max-width: 100%!important;
+}
+
+nav{
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.task-status {
+  font-size: 24px;
+  line-height: 14px;
+  position: relative;
+  top: 3px;
+  cursor: pointer;
+}
+
+.btn-edit {
+  float:right;
+  background: #fff;
+}
+
+.priority-icon{
+  color: #fff;
+  font-size: 24px;
+  line-height: 14px;
+  position: relative;
+  top: 3px;
+  left: -6px;
+  &.mdi-numeric-1-circle{
+    color: #1e7e34;
+  }
+  &.mdi-numeric-2-circle{
+    color: #50a3ff;
+  }
+  &.mdi-numeric-3-circle{
+    color: #909090;
+  }
+}
+
+.no-tasks {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #777;
+}
+
+.badge-task {
+  color: #777;
+  background-color: #eee !important;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: 1px solid #999;
+}
+
+.task-left{
+  position: relative;
+  top:3px;
+}
+
+.modal-body {
+  margin-top: 0;
+  margin-bottom: 0;
+}
